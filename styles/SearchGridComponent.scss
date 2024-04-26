@@ -1,0 +1,19 @@
+.gridBord {
+  border: 2px solid rgb(114, 129, 234);
+  padding: 10px;
+  margin: 1px;
+  border-radius: 4%;
+}
+
+.gridBord:hover {
+  transform: scale(1.03);
+  border: 2px solid rgb(25, 52, 246);
+}
+
+.tile {
+  display: grid;
+  margin: 2% 10%;
+
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}

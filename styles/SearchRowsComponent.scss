@@ -1,0 +1,33 @@
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+
+.paddingId {
+  width: fit;
+  padding: 5px;
+  text-align: center;
+}
+
+.padding {
+  padding: 5px;
+  text-align: center;
+  width: 350px;
+}
+
+th,
+td,
+.gridBord {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 1px;
+}
+tr:hover {
+  background: rgb(114, 129, 234);
+}
+table {
+  table-layout: fixed;
+  border-collapse: collapse; /* Ensure consistent borders */
+}

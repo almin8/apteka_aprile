@@ -1,0 +1,26 @@
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(1, 0, 0, 0.85);
+  display: flex;
+}
+.modalWindow {
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  margin: auto;
+  background: white;
+  min-width: 400px;
+  min-height: 300px;
+  font-size: 18px;
+}
+
+.rowSt {
+  border-top: 2px solid;
+}

@@ -1,0 +1,46 @@
+.currentPageClass {
+  background: rgb(114, 129, 234);
+}
+
+.base {
+  width: 100vw;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.gridBord {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 1px;
+}
+
+input {
+  margin-right: 10px;
+  width: 30%;
+}
+
+.searchBut {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  padding: 7px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 7%;
+}
+button:hover {
+  background: rgb(114, 129, 234);
+}
